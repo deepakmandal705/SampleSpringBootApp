@@ -8,6 +8,6 @@ public class WelcomeController {
 
 	@GetMapping("testapi/welcome")
 	public String welcome() {
-		return "Welcome in spring boot application";
+		return "Welcome in spring boot application. <br/> Automated deployment through jenkins from GIT repository.";
 	}
 }
